@@ -1,0 +1,21 @@
+What is sent: (Data/message, destination address, transport protocall)
+
+UDP: identifies the HOST that the message is intented for.
+Port number is 16 bits (aleast above 1K)
+Web servers usually run on port 80
+Reserved ports are usually for standards such as email standarnds and web hosting
+Transport prodocall: What standerds the data used, so that the reciver can use the same protocalls to unpack the data
+Loop back is a software service. that acts inplace of the network card that loops the info back into another application.
+IP: unique for each Host interface (Wifi or Eithernet)
+IP for loopback: 127.0.0.1
+
+Python Notes:
+serverSocket.bind(ServerIP, serverPORT) sets the port to listen to, and send from
+serverSocket.recvfrom(Upperbound of size of data) takes the info that is recived and sets the variables to those values
+data.encode() encodes the data to be a sequence of bytes.
+	YOU NEED TO CONVERT THE DATA TO BYTES BEFORE SENDING
+socket.socketTimeout(time in nanoseconds): sets the time where the CPU is blocked
+
+Coommand Lines for HW!:
+server: 127.0.0.1 12000
+Client: 127.0.0.1 12000 10
