@@ -21,5 +21,5 @@ while True:
     print("Receive data from client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
 
     # Echo back to client
-    print("Sending data to   client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
-    serverSocket.sendto(data,address)
+    #print("Sending data to   client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
+    #serverSocket.sendto(data,address)
