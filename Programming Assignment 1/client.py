@@ -1,3 +1,8 @@
+'''
+Aaron Samuel
+UCID: as3655
+Section 012
+'''
 #! /usr/bin/env python3
 # Echo Client
 import sys
